@@ -3,73 +3,114 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>  Time tracking dashboard|Frontend Mentor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
 
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { font-size: 11px; text-align: center; margin-top: 45%; color: aliceblue;}
+    .attribution a { color: rgb(0, 204, 255); }
   </style>
 </head>
 <body>
+  <div class="container">
+    <div class="main">
+      <div class="user">
+        <img class="profilephoto" src="images/image-jeremy.png" alt="jeremy's photo">
+        <p>Report for</p>
+        <h2>Jeremy <br> Robson</h2>
+      </div>
+        <button id="daily">Daily</button><br>
+        <button id="weekly">Weekly</button><br>
+        <button id="monthly">Monthly</button>
+    </div>
+    <div class="content">
+      <div class="wcont">  
+        <div class="work">
+          <h5>Work</h5>
+        </div>
+      </div>  
+      <div class="pcont">
+        <div class="play">
+          <h5>Play</h5>
+        </div>
+      </div>  
+      <div class="scont">
+        <div class="study">
+          <h5>Study</h5>
+        </div>
+      </div>  
+      <div class="econt">
+        <div class="exercise">
+          <h5>Exercise</h5>
+        </div>
+      </div>  
+      <div class="socont">
+        <div class="social">
+          <h5>Social</h5>
+        </div>
+      </div>  
+      <div class="secont">
+        <div class="selfcare">
+          <h5>Self Care</h5>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  Report for
-  Jeremy Robson
-
-  Daily
-  Weekly
-  Monthly
-
+<!--
   Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
+  5hrs 
+  Previous - 7hrs  
+  32hrs  
+  Previous - 35hrs  
+  103hrs  
+  Previous - 128hrs  
 
   Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
+  1hr  
+  Previous - 2hrs  
+  10hrs  
+  Previous - 8hrs  
+  23hrs  
+  Previous - 29hrs  
 
   Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
+  0hrs  
+  Previous - 1hr  
+  4hrs  
+  Previous - 7hrs  
+  13hrs  
+  Previous - 19hrs  
 
   Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
+  1hr  
+  Previous - 1hr  
+  4hrs  
+  Previous - 5hrs  
+  11hrs  
+  Previous - 18hrs  
 
   Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
+  1hr  
+  Previous - 3hrs  
+  5hrs  
+  Previous - 10hrs  
+  21hrs  
+  Previous - 23hrs  
 
   Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
+  0hrs  
+  Previous - 1hr  
+  2hrs  
+  Previous - 2hrs  
+  7hrs  
+  Previous - 11hrs  
+-->
   
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
